@@ -27,8 +27,21 @@ function clearAnd() {
   phn.value = "";
   pass.value = "";
 
-  document.getElementById("display").innerHTML = firstName;
-  document.getElementById("display1").innerHTML = lastName;
-  document.getElementById("display2").innerHTML = email;
-  document.getElementById("display3").innerHTML = phoneNum;
+//  document.getElementById("display").innerHTML = firstName;
+// document.getElementById("display1").innerHTML = lastName;
+//  document.getElementById("display2").innerHTML = email;
+//   document.getElementById("display3").innerHTML = phoneNum;
+
+firstName.forEach(element => {
+  document.getElementById("display").innerHTML=firstName;
+});
+
+  lastName.forEach(element => {
+    document.getElementById("display1").innerHTML=lastName;});
+
+    email.forEach(element => {
+      document.getElementById("display2").innerHTML=email;});
+
+      phoneNum.forEach(element => {
+        document.getElementById("display3").innerHTML=phoneNum;});
 }

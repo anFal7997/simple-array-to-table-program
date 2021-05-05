@@ -1,0 +1,43 @@
+body{
+    
+    margin: 0;
+    background-color: darkgray;
+}
+
+#form{
+    margin-top: 5px;
+    margin-left: 32%;
+    padding: 3px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: rgb(243, 243, 112);
+}
+div{
+    padding: 3px;
+    margin: 2px;
+    align-items: center;
+}
+h1{
+    font-family: Cambria;
+    font-weight: lighter;
+}
+#but{
+    margin-top: 3px;
+    background-color: blueviolet;
+    color: cornsilk;
+}
+table{
+    display: border;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 30%;
+    padding: 3px;
+    text-align: center;
+    background-color: lightgreen;
+    color:black;
+}
+th,td{
+    border: 2px solid black;
+}
